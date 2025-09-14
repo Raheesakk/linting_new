@@ -1,5 +1,4 @@
 """Unit tests for the greeting module."""
-
 import unittest
 from greet import greet
 class TestGreet(unittest.TestCase):
@@ -9,6 +8,3 @@ class TestGreet(unittest.TestCase):
         """Test that greet() returns the correct formatted string."""
 if __name__ == '__main__':
     unittest.main()
-
-    
-
