@@ -8,4 +8,3 @@ class TestGreet(unittest.TestCase):
         self.assertEqual(greet("World"), "Hello, World!")
 if __name__ == '__main__':
     unittest.main()
-    
