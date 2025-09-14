@@ -3,6 +3,8 @@
 import unittest
 from greet import greet
 
+"""Greeter class provides a method to greet users."""
+ 
 class TestGreet(unittest.TestCase):
     def test_greet(self):
         """Test that greet() returns the correct formatted string."""
@@ -10,4 +12,5 @@ class TestGreet(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    
 
